@@ -5,3 +5,4 @@ while ($x <=100):
     echo "$x <br>";
 $x++;
 endwhile;
+?>

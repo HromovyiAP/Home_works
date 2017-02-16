@@ -8,5 +8,5 @@ $count = 0;
 foreach ($arr as $item) {
     $count = $count + 1 ;
 }
-echo $count;
+echo "Количестов элементов в массиве = {$count}";
 ?>

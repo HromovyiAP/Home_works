@@ -5,3 +5,4 @@ while ($x <=33):
     echo "$x <br>";
 $x++;
 endwhile;
+?>

@@ -6,7 +6,7 @@ $result = 0;
 $x = array(1, 20, 15, 17, 24, 35);
 foreach ($x as $a)
 {$result += $a;}
-echo $result;
+echo "Сумма элементов массива = {$result}";
 ?>
 </pre>
 

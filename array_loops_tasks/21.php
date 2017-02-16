@@ -8,11 +8,11 @@
 
 <?php
 $x = 0;
-$y = array ();
-foreach ($y as $item) {
-    while ($x <= 9) {
-        $y[] = 1
-    }
-}
-echo "$item <br>";
+$y = 1;
+echo $y. '<br>';
+while ($x <= 9) {
+    $y++;
+    $y .= $y;
+    $x++;
+    echo $y.'<br>';}
 ?>

@@ -6,5 +6,5 @@ $result = 0;
 $x = array(26, 17, 136, 12, 79, 15);
 foreach ($x as $a)
 {$result += ($a*$a);}
-echo $result;
+echo "Сумма квадратов элементов массива = {$result}";
 ?>

@@ -8,12 +8,11 @@
 <?php
 $y = 0;
 $z = 'x';
-//$x = array ();
-//for ($x = 0, $x <= 20, $x++)
-//foreach ($x as $item) {
+echo "$z <br>";
     while ($y <= 20) {
-        echo "$z <br>";
+        $z .='x';
         $y++;
+        echo $z.'<br>';
     }
 
 ?>

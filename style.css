@@ -1,0 +1,31 @@
+.hello {
+color:white; 
+font-size:25px;
+background-color:blue;
+border:5px solid white;
+border-radius:20px;
+width:100%;
+margin:5px;} 
+
+.name {
+color:black; 
+font-size:30px;
+background-color:white;
+border:5px solid gray;
+border-radius:5px;
+width:100%;
+margin:5px;}	
+
+.info {
+color:black; 
+background-color:white;
+border:5px solid gray;
+border-radius:5px;
+width:100%;
+margin:5px;}
+
+#email 
+{color:green}
+
+h2 {color:blue;}
+a {color:green;}

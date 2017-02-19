@@ -6,12 +6,9 @@
     xxxxxxxxxx</p></h3>
 
 <?php
-$y = 0;
-$z = 'x';
-echo "$z <br>";
-//while ($y <= 5) {
-
-for ($y = 0, $y <= 5, $y++) {
-    $z .='x';
-echo $z.'<br>';}
+$z = 'xx';
+echo "$z  <br>";
+for ($y = 0; $y <= 3; $y++) {
+    $z .='xx';
+    echo "$z  <br>";}
 ?>

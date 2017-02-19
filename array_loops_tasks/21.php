@@ -10,9 +10,11 @@
 $x = 0;
 $y = 1;
 echo $y. '<br>';
-while ($x <= 9) {
-    $y++;
-    $y .= $y;
+while ($x <= 7) {
     $x++;
-    echo $y.'<br>';}
+    $y++;
+    echo str_repeat($y, $y) . '<br>';
+}
 ?>
+
+

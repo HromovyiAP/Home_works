@@ -7,9 +7,9 @@ $arr = array ("Січень", "Лютий", "Березень",
     "Квітень", "Травень", "Червень", "Липень",
     "Серпень", "Вересень", "Жовтень", "Листопад", "Грудень");
 foreach ($arr as $item) {
-    if ($item === $month) { echo "<b> $item </b>";
+    if ($item === $month) { echo "<b> $item </b>" . "<br>";
     }
-    else { echo $item;}
+    else { echo $item . '<br>';}
     }
 
 ?>

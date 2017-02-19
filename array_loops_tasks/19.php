@@ -6,9 +6,9 @@ $day = 'Понеділок';
 $arr = array ('Понеділок', 'Вівторок', 'Середа', 'Четвер', 'Пятниця', 'Субота', 'Неділя');
 foreach ($arr as $item) {
     if ($item === $day) {
-        echo "<i> $item </i>";
+        echo "<i> $item </i>". "<br>";
     }
     else {
-        echo $item;
+        echo $item . '<br>';
     }
 }

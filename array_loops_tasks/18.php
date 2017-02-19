@@ -8,9 +8,9 @@ $b = 'Неділя';
 $arr = array ('Понеділок', 'Вівторок', 'Середа', 'Четвер', 'Пятниця', 'Субота', 'Неділя');
 foreach ($arr as $item) {
     if ($item === $a || $item === $b) {
-        echo "<b> $item </b>";
+        echo "<b> $item </b>". "<br>";
     }
     else {
-        echo $item;
+        echo $item . '<br>';
     }
 }

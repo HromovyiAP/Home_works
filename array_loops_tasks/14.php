@@ -10,7 +10,7 @@ foreach ($arr as $item) {
         || $item == 4) {
         $count = $count + 1;}
 }
-if ($count = true) {
+if ($count) {
     echo "Есть";
 }
 else {

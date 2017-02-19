@@ -3,7 +3,7 @@
     $arr = array ('green' => 'зеленый', 'red' => 'красный','blue' => 'голубой');
     $en = array('green', 'red','blue');
     $ru = array('зеленый', 'красный', 'голубой');</h3>
-<pre>
+
 <?php
 $en = array();
 $ru = array();
@@ -19,4 +19,3 @@ foreach ($arr as $key => $val) {
 }
 print_r($ru);
 ?>
-</pre>

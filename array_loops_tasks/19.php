@@ -12,3 +12,6 @@ foreach ($arr as $item) {
         echo $item . '<br>';
     }
 }
+
+date_default_timezone_set('UTC');
+echo date("l");

@@ -9,6 +9,7 @@ for ($i=0; $i <= 4; $i++){
     $arr [$i] = rand(1, 100);
 }
 print_r($arr);
+echo "<br>";
 
 foreach ($arr as $key => $item) {
     if ($item > 0 && ($key % 2 == 0) && $key > 0) {
